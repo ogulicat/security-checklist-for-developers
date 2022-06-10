@@ -44,7 +44,7 @@
 
 
 ##### SANITIZATION OF INPUT
-- [ ] `Sanitize` all user inputs or any input parameters exposed to user to prevent [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting) (E.g.: use htmlspecialshart w/ ENT_QUOTES | ENT_HTML_5 flag in PHP). 
+- [ ] `Sanitize` all user inputs or any input parameters exposed to user to prevent [XSS](https://en.wikipedia.org/wiki/Cross-site_scripting) (E.g.: use htmlspecialchars w/ ENT_QUOTES | ENT_HTML_5 flag in PHP). 
 - [ ] Always use parameterized queries to prevent [SQL Injection](https://en.wikipedia.org/wiki/SQL_injection).  
 - [ ] Sanitize user input if using it directly for functionalities like CSV import.
 - [ ] `Sanitize` user input for special cases like robots.txt as profile names in case you are using a url pattern like blabla.com/username. 
