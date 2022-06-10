@@ -51,6 +51,7 @@
 - [ ] Do not hand code or build JSON by string concatenation ever, no matter how small the object is. Use your language defined libraries or framework.
 - [ ] Sanitize inputs that take some sort of URLs to prevent [SSRF](https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit#heading=h.t4tsk5ixehdd).
 - [ ] Sanitize Outputs before displaying to users.
+- [ ] Limit the length of the text written to the input (form fuzzy protection).
 
 
 ##### DATABASE
